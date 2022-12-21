@@ -1,4 +1,4 @@
-
+# 25
 import pygame
 
 pygame.init()
