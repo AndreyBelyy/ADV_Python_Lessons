@@ -13,7 +13,7 @@ myimage = pygame.transform.scale(myimage, (600,120)) # change image resolution
 
 x = 500
 y = 100
-bg_color = (0, 0, 0)
+bg_color = (0, 0, 0) # black color for background
 
 while game_over == False:
     for event in pygame.event.get(): # read for events
