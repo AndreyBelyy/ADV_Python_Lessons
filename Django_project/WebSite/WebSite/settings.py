@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # My Web Pages here:
     'Page',
+    'PageAdvanced',
 ]
 
 MIDDLEWARE = [
