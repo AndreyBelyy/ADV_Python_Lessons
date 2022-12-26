@@ -5,7 +5,7 @@ def bubble(test_list):
     for t in range(0, last_item):
         for u in range(0, last_item):
             if test_list[u] > test_list[u+1]:
-                test_list[u], test_list[u+1] = test_list[u+1], test_list[u]
+                test_list[u], test_list[u+1] = test_list[u+1], test_list[u] # swap current index value with next one
 
     return test_list
 
