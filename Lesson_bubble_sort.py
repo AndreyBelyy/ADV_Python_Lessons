@@ -9,6 +9,6 @@ def bubble(test_list):
 
     return test_list
 
-bubble(test_l)
+print("Unsorted :", test_l)
 new_l = bubble(test_l).copy()
-print(new_l)
+print("Sorted :", new_l)
