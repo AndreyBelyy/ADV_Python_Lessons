@@ -4,7 +4,7 @@ import shutil       # For CopyFile
 import os           # For GetFileSize and check if file exists
 import sys          # For CLI Arguments
 
-# lesson_script_cleaning_logs.py mylog.txt 10 5
+# lesson_script_cleaning_logs.py mylog.txt 10 5 #
 
 if(len(sys.argv)) < 4:
     print("Missing arguments! Usage is script.py 10 5")
